@@ -9,14 +9,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Quick Tip</title>
+    <title>Calculadora de Divisão</title>
   </head>
   <body>
     <main oninput="update()">
-      <h1>Calculadora de Tip</h1>
+      <h1>Calculadora de Divisão</h1>
       <section>
         <div class="bill">
-          <label for="yourBill">Bill</label>
+          <label for="yourBill">Conta</label>
           <input 
             type="number" 
             placeholder="Your bill" 
@@ -25,18 +25,18 @@
         </div>
         <div>
           <div class="space-between">
-            <label for="">Select tip</label
+            <label for="">Selecione a gorjeta</label
             ><span id="tipPercent">0%</span>
           </div>
           <input type="range" value="0" id="tipInput" class="range" />
         </div>
         <div class="space-between">
-          <span>Tip</span>
+          <span>Valor da gorjeta</span>
           <span id="tipValue"></span>
         </div>
         <hr />
         <div class="space-between total">
-          <span>Total</span>
+          <span>Total da conta</span>
           <span id="totalWithTip"></span>
         </div>
       </section>
@@ -44,7 +44,7 @@
       <section>
         <div>
           <div class="space-between">
-            <label for="splitInput">Split</label>
+            <label for="splitInput">Dividir em</label>
             <span id="splitValue"></span>
           </div>
           <input
@@ -57,7 +57,7 @@
           />
         </div>
         <div class="space-between">
-          <span>Bill each</span>
+          <span>Valor para cada pessoa: </span>
           <span id="billEach"></span>
         </div>
       </section>
